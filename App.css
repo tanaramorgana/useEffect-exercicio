@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.logo {
+  height: 5em;
+  margin-left: 2em;
+}
+
+.banner {
+  background-image: url("https://s1.1zoom.me/b5050/459/266451-alexfas01_1366x768.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: auto;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 4rem;
+  color: #79AC78;
+  
+}
+
+.subtitulo {
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: 2rem;
+  color: #B0D9B1;
+}
+
+.cat-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.catcard {
+  width: 40rem;
+  height: auto;
+  margin: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.catcard:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #79AC78;
+  color: #D0E7D2;
+  font-weight: bold;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 5%;
+  
+}
